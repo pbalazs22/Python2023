@@ -16,7 +16,7 @@ random.shuffle(toto)
 totosz=toto[:3]
 totósz= [random.randrange(1, 4) for totósz in range(13)]
 for i in range(len(totósz)):
-    print(totósz[i])
+    pass
     if totósz[i]==3:
         totósz[i]="x"
 menu=["1: ötös lottó","2 hatos lottó","3 Skandináv","4 Totó","0 kilépés"]
