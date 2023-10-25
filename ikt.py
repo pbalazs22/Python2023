@@ -14,9 +14,11 @@ skandinavsz=skandinav[:7]
 toto=list(range(1, 14))
 random.shuffle(toto)
 totosz=toto[:3]
-
 totósz= [random.randrange(1, 4) for totósz in range(13)]
-
+for i in range(len(totósz)):
+    print(totósz[i])
+    if totósz[i]==3:
+        totósz[i]="x"
 menu=["1: ötös lottó","2 hatos lottó","3 Skandináv","4 Totó","0 kilépés"]
 while True:
     for minden in menu:
@@ -25,7 +27,7 @@ while True:
     print(x)
     
     if x=="1":
-        print(hatossz)
+        print(ötössz)
     if x=="2":
         print(hatossz)
     if x=="3":
