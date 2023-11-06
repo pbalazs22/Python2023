@@ -4,13 +4,13 @@ toto = list(range(1, 14))
 random.shuffle(toto)
 totosz = toto[:3]
 totoki = "A Totó számaira ezek a tippeim:\n1.szám: {}\n2.szám: {}\n3.szám: {}\n4.szám: {}\n5.szám: {}\n6.szám: {}\n7.szám: {}\n8.szám: {}\n9.szám: {}\n10.szám: {}\n11.szám: {}\n12.szám: {}\n13.szám: {}"
-menu=["1: ötös lottó","2 hatos lottó","3 Skandináv","4 Totó","0 kilépés"]
+menu=["1: Ötös lottó","2 Hatos lottó","3 Skandináv","4 Totó","0 Kilépés"]
 while True:
     for minden in menu:
         pass
    
 
-    x=input("\nMelyik szerencsejáték számai legyenek legenerálva? \n1 ötös lottó \n2 hatos lottó \n3 Skandináv \n4 Totó \n0 kilépés\n"  )
+    x=input("\nMelyik szerencsejáték számai legyenek legenerálva? \n1 Ötös lottó \n2 Hatos lottó \n3 Skandináv \n4 Totó \n0 Kilépés\n"  )
     print(x)
     if x=="1":
         ötös=list(range(1, 91))
