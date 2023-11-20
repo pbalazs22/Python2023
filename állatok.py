@@ -1,5 +1,8 @@
 def legkonnyebb():
-    print(tomegek)
+    legkissebb=tomegek[0]
+    fort t in tomegek:
+        if tomeg<t:
+            t=tomeg
 
     pass
 
