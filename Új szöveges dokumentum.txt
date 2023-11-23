@@ -1,0 +1,17 @@
+import random
+
+szamok = [random.randint(10000, 99999) for _ in range(500)]
+print(szamok)
+parosszamok= len([szam for szam in szamok if szam % 2 == 0])
+print(parosszamok)
+
+paratlanszamok= 0
+for szam in szamok:
+    if szam % 2 != 0:
+        paratlanszamok+= szam
+print("A generált számok páratlan számainak összege:", paratlanszamok)
+
+for szam in szamok:
+    if 30000< szam <39999:
+         print(szam)
+
