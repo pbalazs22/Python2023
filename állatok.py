@@ -28,4 +28,4 @@ if legkonnyebb() in tomegek:
 nehezek=[]
 
 for i in range(len(tomegek)):
-    
+    pass
