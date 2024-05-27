@@ -1,0 +1,5 @@
+Kérjen be egy szöveget egy listába ures bekeresig
+
+akkor rakja bele ha 1 szó és hosszabb mint 10 karakter
+
+irassa ki az utolsó szót aztán a többit kötöjellel el választva
