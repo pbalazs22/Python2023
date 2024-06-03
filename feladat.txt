@@ -1,0 +1,3 @@
+1. készitsetek egy függvényt ami bekér pontosan 5 betűs szavakat üres sor végjelig listába 
+a függvény adja vissza a szvakat aztán betürendbe szedve irassátok ki a szavakat 
+válagossátok ki azokat a szvaakat amibe van azonos betü
